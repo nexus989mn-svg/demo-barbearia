@@ -101,7 +101,7 @@ nav{
 .hero h1{
   max-width:670px;
   margin:0 0 23px;
-  font-size:clamp(3.2rem,6.4vw,5.7rem);
+  font-size:clamp(2.4rem, 10vw, 5.7rem);
   font-weight:900;
   line-height:1.08;
   letter-spacing:-.065em;
@@ -300,6 +300,15 @@ footer{padding:28px 0;border-top:1px solid var(--line);color:var(--muted);font-s
   }
 }
 
+
+@media (max-width:560px) {
+  .hero h1 {
+    font-size:clamp(2.35rem, 10vw, 3.1rem) !important;
+    line-height:1.12 !important;
+    letter-spacing:-0.045em !important;
+    max-width:100%;
+  }
+}
 </style>
 </head>
 <body>
